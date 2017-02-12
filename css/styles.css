@@ -1,0 +1,48 @@
+.carousel {
+  width: 60%;
+  height: 60%;
+  border: 2em solid #FFAB40;
+  margin: auto;
+  background-color: #FFD180;
+}
+
+.img-displayed {
+  width: 100%;
+  object-fit: fill;
+  z-index: 0;
+  position: relative;
+}
+
+.img-off-left {
+  display: none;
+}
+
+.img-off-right {
+  display: none;
+}
+
+.button-left {
+  z-index: 1;
+  position: absolute;
+  left: 22%;
+  top: 35%;
+  width: 5%;
+  min-width: 48px;
+}
+
+.button-right {
+  z-index: 1;
+  position: absolute;
+  right: 22%;
+  top: 35%;
+  width: 5%;
+  min-width: 48px;
+}
+
+.info {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #FFFF8D;
+  margin: 0.25em;
+  padding: 0.25em;
+}
